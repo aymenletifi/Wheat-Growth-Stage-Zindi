@@ -1,2 +1,6 @@
 # Wheat-Growth-Stage-Zindi
-This notebook summarises our work in the Zindi Competition CGIAR Wheat Growth Stage Challenge by CGIAR Platform for Big Data in Agriculture
+This notebook summarises our work in the Zindi Competition <a href='https://zindi.africa/competitions/cgiar-wheat-growth-stage-challenge'> CGIAR Wheat Growth Stage Challenge by CGIAR Platform for Big Data in Agriculture </a>: <br>
+Picture-based insurance (PBI) improves crop insurance for small scale farmers around the world, where images from a smartphone camera keep a record of a crop’s growth and record any damage events that will affect insurance payouts. PBI is a great way for insurers to verify events and to monitor crop growth, but it can also generate overwhelming amounts of data once images stream in from thousands of farmers.
+For this competition, you will help us automate one part of the data processing pipeline: estimating the growth stage of a wheat crop based on an image sent in by the farmer. The images are automatically cropped to show a section of the field. Your model must take in an image and output a prediction for the growth stage of the wheat shown, on a scale from 1 (crop just showing) to 7 (mature crop). Your solution must operate on the input image ONLY - no additional data may be used.<br><br><br>
+You can download the images and the training dataset from <a href='https://zindi.africa/competitions/cgiar-wheat-growth-stage-challenge/data'> here </a>.
+
